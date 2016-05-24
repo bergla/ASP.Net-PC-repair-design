@@ -1,0 +1,139 @@
+﻿body {
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.headerbox {
+    width:100%;
+    height:320px;
+    background-color:#ff750e;
+    position:absolute;
+    left:0;
+    right:0;
+}
+
+#headimg {
+    margin-bottom:30px;
+}
+
+.headertext {
+    margin-top:85px;
+    color:#000000;
+}
+
+.headtext {
+    font-family:Dotum;
+}
+
+.hundertext {
+    color:#ffffff;
+}
+
+.overnav {
+    z-index:1000;
+    background-color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+    height:40px;
+
+}
+.bump {
+    margin-top:0px;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+.navbar-form input, .form-inline input {
+	width:auto;
+}
+
+.kontakt {
+    border: 2px solid #e1e1e1;
+    border-radius: 5px;
+    display:inline-block;
+    padding:10px 10px 10px 10px;
+    position:relative;
+}
+
+.masthead .kontakt {
+    float:right;
+}
+
+.ikonblock::before {
+    background:#EEEEEE none repeat scroll 0 0;
+    border-radius:50%;
+    color:#ff750e;
+    font-size:30px;
+    height:60px;
+    width:60px;
+    position:absolute;
+    line-height:58px;
+    text-align:center;
+    top:0;
+    transition: all 0.2s ease 0s;
+}
+
+
+.ikonblock:hover::before {
+    background: #ff750e none repeat scroll 0 0;
+    color: #fff;
+}
+
+.ikonblock h4, .ikonblock p {
+    padding-left:80px;
+    position:relative;
+}
+
+.ikonblock p {
+    font-size:12px;
+}
+
+.fa-laptop::before {
+    font-family: FontAwesome;
+    content: '\f109';
+    margin-top:20px;
+}
+
+.fa-cogs::before {
+    font-family:FontAwesome;
+    content: '\f085';
+    margin-top:20px;
+}
+
+.fa-wrench::before {
+    font-family:FontAwesome;
+    content: '\f0ad';
+    margin-top:20px;
+}
+
+.fa-windows::before {
+    font-family:FontAwesome;
+    content: '\f17a';
+    margin-top:20px;
+}
+
